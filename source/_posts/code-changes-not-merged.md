@@ -22,7 +22,7 @@ git 在合并分支时偶然碰到的奇葩问题
 ### 知识点
 
    git rebase
-    rebase 的工作原理[ ^footnote]，注意弄清楚那个分支会作为基准分支
+    rebase 的工作原理，注意弄清楚那个分支会作为基准分支
           [参考文档](http://weizhifeng.net/git-rebase.html)
 
 
