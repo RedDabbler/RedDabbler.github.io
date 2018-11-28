@@ -3,12 +3,10 @@
   <article class="post post-type-{{ post.type | default('normal') }}" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
 
-      <{% if theme.seo %}h2{% else %}h1{% endif %} class="post-title">
+      <{% if theme.seo %}h3{% else %}h2{% endif %} class="post-title">
         {% if post.link %}{# Link posts #}
-          <a class="post-title-link post-title-link-external" target="_blank" href="{{ url_for(post.link) }}" itemprop="url">
-            {{ post.title or post.link }}
-            <i class="fa fa-external-link"></i>
-          </a>
+          {% set postTitleIcon = '<i class="fa fa-external-link"></i>' %}
+          {{ next_url(url_for(post.link), (post.title or post.link) + postTitleIcon, {class: 'post-title-link post-title-link-external', itemprop: 'url' }) }}
         {% else %}
             <a class="post-title-link" href="{{ url_for(post.path) }}" itemprop="url">
               {% if post.type === 'picture' %}
@@ -18,7 +16,7 @@
               {% endif %}
             </a>
         {% endif %}
-      </{% if theme.seo %}h2{% else %}h1{% endif %}>
+      </{% if theme.seo %}h3{% else %}h2{% endif %}>
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
