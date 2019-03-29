@@ -22,9 +22,10 @@ categories:
 - mysql
   - [win5.7.25](https://dev.mysql.com/downloads/windows/installer/5.7.html)
 - mssql
-  - [sn码]()
-  - [安装教程]()
+  - 百度网盘
+  - [安装教程](https://jingyan.baidu.com/article/b24f6c822679b786bfe5dac3.html)
 - navicat
+  - 百度网盘
   - [地址]()
 - maven
   [3.3+ require JDK 1.7 or above](https://maven.apache.org/download.cgi)
@@ -39,11 +40,13 @@ categories:
     - markdown-preview-enhanced
     - atom-beauty
     - markdown-writer
+    - platformio-ide-terminal(forked from jeremyramin/terminal-plus)
   - 配置
 - onenote
-  - [下载地址]()
-- xmind
-  - [下载地址]()
+  - [下载地址](https://www.onenote.com/download)
+- mindmanger
+  - [下载地址](http://mannix.top/2018/10/18/%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE-Mindjet-MindManager-2019-v19.0.306-%E4%B8%AD%E6%96%87%E7%A0%B4%E8%A7%A3%E7%89%88/)
+  - 百度网盘
 - shadowsocks
   - [下载地址](https://shadowsocks.org/en/download/clients.html)
   - [github](https://github.com/shadowsocks/shadowsocks-windows/releases)
