@@ -9,9 +9,10 @@ categories:
 <!--more-->
 #### 开发工具
 - jdk
-  [1.7]()
-  [1.8]()
+  [1.7](https://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase7-521261.html)
+  [1.8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 - idea
+  - [win下载](https://dev.mysql.com/downloads/windows/installer/5.7.html)
   - [破解]()
   - [配置]()
   - 常用plugin
@@ -19,19 +20,21 @@ categories:
     - maven-helper
     - sonar
 - mysql
+  - [win5.7.25](https://dev.mysql.com/downloads/windows/installer/5.7.html)
 - mssql
   - [sn码]()
   - [安装教程]()
 - navicat
   - [地址]()
 - maven
-  [下载地址]()
-  [setting.xml模板]
+  [3.3+ require JDK 1.7 or above](https://maven.apache.org/download.cgi)
+  [3.0.4+下载地址](https://archive.apache.org/dist/maven/maven-3/)
+  [setting.xml模板]()
 - git
-  [下载地址]()
+  [下载地址](https://git-scm.com/downloads)
   [变量设置]()
 - atom
-  - [下载地址]()
+  - [下载地址](https://github.com/atom/atom/releases/tag/v1.35.1)
   - 常用插件
     - markdown-preview-enhanced
     - atom-beauty
@@ -42,6 +45,7 @@ categories:
 - xmind
   - [下载地址]()
 - shadowsocks
-  - [下载地址]()
+  - [下载地址](https://shadowsocks.org/en/download/clients.html)
+  - [github](https://github.com/shadowsocks/shadowsocks-windows/releases)
 
 #### 配置导入导出
